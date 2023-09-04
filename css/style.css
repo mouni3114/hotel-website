@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4em;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+    /* overflow: auto; */
+    padding: 0 20px; 
+
+}
+#navbar{
+ background: #333;
+ color: #fff;
+ overflow: auto;   
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+     float: left; 
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08a;
+
+}
+#showcase{
+    background: url('../images/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+.text-color{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 20px;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+.button{
+    color:#fff;
+    display: inline-block;
+    font-size: 18px;
+    background: #333;
+    padding: 10px 30px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background: #f7c08a;
+    color: #333;
+}
+.button-color{
+    background: #f4f4f4;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+#home-info{
+    height: 400px;
+}
+#home-info .img-info{
+    float: left;
+    width:50%;
+    min-height: 100%;
+    background: url('../images/photo-1.jpg') no-repeat;
+
+}
+#home-info .content-info{
+    float: right;
+    text-align: center; 
+    width:50%;
+    height: 100%;
+    /* background: #333; */
+    /* color: #fff;  */
+    padding: 50px 30px;
+    overflow: hidden;
+
+}
+.darkpage{
+    background: #333; 
+    color: #fff;
+}
+#home-info .content-info p{
+    padding-bottom: 30px;
+}
+
+
+#features{
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33.3%;
+    padding: 50px;
+    text-align: center;
+    /* border: 1px solid rgb(135, 116, 116); */
+}
+
+h3{
+    text-align: center;
+    padding: 0;
+}
+#about-info .info-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    min-height: 100%;
+    /* border: 1px solid red; */
+}
+
+
+#about-info .info-right img{
+    display: block;
+    width: 360px;
+   /* margin: auto; */
+   border-radius: 50%;
+}
+#about-info .info-left{
+    float:left;
+    width:35%;
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 217PX;
+    /* font-size: 20px; */
+}
+#main-footer{
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+} 
+
+
+.container1{
+    height: 50vh;
+} 
+
+#about-info1{
+    height:673px;
+    background: url('../images/test-bg.jpg') no-repeat center center/cover;
+    padding-top:40px;
+
+}
+.main-heading{
+    font-size: 40px;
+    text-align: center;
+    color:#fff;
+    padding:50px 20px;
+    
+}
+.container2 img{
+    height:120px;
+    float:left;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+
+.container2{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    width: 100%;
+    padding:0 95px;
+    margin-bottom: 40px;
+}
+
+#about-info1 p{
+    padding: 50px 50px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+
+}
+.info-top{
+    margin-bottom: 38px;
+}
+
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 15px auto;
+    height: 80vh;
+    gap: 3px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+.form textarea{
+    width: 100%;
+    max-height: 175px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
